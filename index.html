@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Atividades DDM2</title>
+	</head>
+	<body>
+		<!-- Ex 2 -->
+		<h4>Ex 2</h4>
+		<p>Clique para ver a mensagem</p>
+		<button onclick="btnalert()">Aperte Aqui </button>
+		<br><br>
+
+		<!-- Ex 3 -->
+		<h4>Ex 3</h4>
+
+		<!-- Exemplo de ElementById -->
+		<h5>ElementById</h5>
+		<p>Retorna um elemento com um valor ID especificado.</p>
+		<div id="div1">Id</div>
+
+		<!-- Exemplo de ElementByTagName -->
+		<h5>ElementByTagName</h5>
+		<p>Retorna uma coleção de todos os elementos com um nome de tag especificado.</p>
+		<span>Texto</span><br><br>
+		<span>Texto</span><br><br>
+		<span>Texto</span><br><br>
+		
+		<!-- Exemplo de getElementsByClassName -->
+		<h5>getElementsByClassName</h5>
+		<p>Retorna uma coleção de elementos com nomes de classe especificados.</p>
+		<div class="example1">Elemento1</div>
+		<div class="example1">Elemento2</div>
+
+		<!-- Exemplo de QuerySelector -->
+		<h5>QuerySelector</h5>
+		<p>Retorna o primeiro elemento que corresponde a um seletor CSS.</p>
+		<h3>Texto com cor</h3>
+
+		<!-- Exemplo de QuerySelectorAll -->
+		<h5>QuerySelectorAll</h5>
+		<p>Retorna todos os elementos que correspondem ao seletor CSS.</p>
+		<h2 class="example">Cabeçalho</h2>
+		<p class="example">Paragrafo</p>
+
+		<!-- Ex 4,5 e 6 -->
+		<h4>Ex 4, 5 e 6</h4>
+		<p>addEventListener() anexa um manipulador de eventos ao elemento especificado. "Click" é um tipo de evento, ocorre quando o usuário clica em algo</p>
+		<button id="btnconta">Clique e veja o valor aumentar</button>
+		<button id="btncontaf">funcao de flecha</button>  
+		<button id="btnliteral">funcao de literal</button>
+		<p id="conta">0</p>
+
+		<!-- Ex 7 -->
+		<h4>Ex 7</h4>
+		<p>Converta palavras minusculas em maiúsculas</p>
+		<input type="text" id="Texto-min">
+		<button onclick="CaixaAlta()">Converter para Caixa Alta</button>
+		<p id="resultado"></p>
+
+		<!-- Ex 8 -->
+		<h4>Ex 8</h4>
+		<fieldset>
+			<legend>Cálculo de Soma</legend>
+			<label>Valor 1:</label>
+			<input id="txt1" type="text"/><br><br>
+			<label>Valor 2: </label>
+			<input id="txt2" type="text"/><br><br>
+			<button id="somar" onclick="somarValores()">Somar</button>
+		</fieldset>
+
+
+		<script src="atividades.js"></script>
+	</body>
+</html>
+ 
